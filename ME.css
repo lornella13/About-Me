@@ -1,0 +1,137 @@
+*{
+     box-sizing: border-box;
+}
+body{
+    background-image: url(_\ \(16\).jpeg);
+    background-size: cover;
+    color: black;
+    align-items:center;
+    justify-content:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 20px;
+    text-align:center;
+    box-sizing: border-box;
+   
+    
+   
+}
+
+.navigation{
+    display: flex;
+    flex-direction:row;
+    background-color: #CAF0F8;
+    height: 150px;
+    width: 100%;
+    padding: 10px 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+   
+}
+img{
+    border-radius: 40%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    padding: 0;
+    display: block;
+    
+}
+h1,h2{
+    font-size: 2.5 em;
+    letter-spacing: 2px;
+}
+h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.space{
+    flex-grow: 1;
+}
+
+.img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: auto;
+    height: 50px;
+    justify-content:space-between;
+    padding:0 20px;
+    margin-left: auto;
+
+
+}
+main{
+    font-size: 10px;
+    width: 80vw;
+    padding: 20px;
+    font-size: 2.5 em;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.5 em;
+    background: color #fec5e5;
+    color:black;
+    overflow: hidden;
+    border-radius: 10%;
+     box-sizing: border-box;
+     animation: slide-in 10s ease;
+      animation-name: myAnimation;
+     animation-iteration-count: infinite;
+     justify-content: space-evenly;
+     margin-left: 15em;
+     display: block;
+     margin-bottom: 10px;
+     
+    }
+
+    @keyframes slide-in {
+        from{
+            transform: translateX(-100%);
+        }
+        to{transform: translateX(0);}
+    }
+    form{
+        float:right;
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 5px;
+     
+    }
+    
+    @keyframes myAnimation{
+        from{ background-color: #CAF0F8;} to{
+            background-color: #fec5e5;
+        }
+        }
+  
+        
+ .peace{
+display: flex;
+flex-direction: row;
+ }
+ .grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+     
+ }
+
+ .grid div{
+    border: 1px solid #5001514c;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+ }
+        
+input{
+    background:#fec5e5;
+}
+textarea{
+    background: #CAF0F8;
+}
+h3{
+font-size: 30px;
+}
+button{
+    background: #fec5e5;
+}
+
